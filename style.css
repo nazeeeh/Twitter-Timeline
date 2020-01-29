@@ -1,0 +1,368 @@
+body{
+    /* background-color: #fff; */
+    background-color: #141d26;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', sans-serif;
+    margin: 0px;
+
+    
+}
+
+#navbar{
+position: fixed;
+top: 0px;
+left: 0px;
+height: 100%;
+width: 250px;
+border-right: 1px solid #192734;
+
+}
+
+#navbar ul a i{
+    margin-right: 20px;
+}
+
+#navbar ul li:hover{
+    background-color: dodgerblue;
+    border-radius: 20px;
+    opacity: 0.8;
+    padding: 10px;
+}
+
+
+#navbar ul .nav-link{
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;    
+}
+
+#navbar li{
+    padding: 10px;
+    list-style-type: none;
+    font-size: 1.0em;
+    font-weight: bold;
+}
+
+.btn{
+    background-color: dodgerblue;
+    width: 70%;
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid #fff;
+    color: #fff;
+    cursor: pointer;
+}
+
+#container{
+    position: absolute;
+    left: 250px;
+    width: 650px;
+    height: auto;
+    margin-top: 0;
+    border-right: 1px solid #192734;   
+}
+
+.head{
+    position: fixed;
+    top: 0;
+    width: 48.2%;
+    background-color: #141d26;
+    border-bottom: 1px solid #192734;
+    
+    z-index: 1;
+}
+
+#container .head h3{
+    
+    margin-left: 10px;
+    padding: 5px;
+    color: #fff;
+}
+
+#container .head i:hover{
+    border-radius: 100%;
+    background-color: rgba(14, 108, 202, 0.411);
+    opacity: 0.5;
+}
+
+.profile-1{
+    margin-top: 70px;
+    
+}
+
+.profile-1 .icon-stats{
+    position: absolute;
+    left: 100px;
+    top: 170px;
+    cursor: pointer;
+}
+
+.profile-1 .icon-stats i:hover{
+    border-radius: 100%;
+    background-color: rgba(14, 108, 202, 0.411);
+    opacity: 0.5;
+}
+
+.profile-1 .img-div #img{
+    border-radius: 100%;
+    margin: 10px 0 0 15px;
+}
+
+.profile-2 {
+    border-bottom: 1px solid #192734;
+}
+
+.profile-2 .img-div #img{
+    float: left;
+    margin-top: 10px;
+    margin-left: 20px;
+    border-radius: 100%;
+
+}
+
+.profile-2 .profile-text{
+    margin-left: 90px;
+    color: #fff;
+    margin-top: 10px;
+    
+    
+}
+.profile-2 .profile-text .icon-bar{
+    width: 100%;
+    margin-top: 10px;
+    padding: 5px;   
+}
+
+.profile-2 .profile-text h5{
+    line-height: 0;
+}
+
+
+.profile-2 .profile-text p{
+    margin: 0;
+    font-size: 14px;
+    font-family: cursive;
+    
+}
+
+.profile-2 .profile-text i{
+    padding: 0;
+    cursor: pointer;
+}
+
+.profile-2 .profile-text .fa-retweet:hover{
+    color: green;
+}
+
+.profile-2 .profile-text .fa-comment:hover{
+    color: dodgerblue;
+}
+
+.profile-2 .profile-text .fa-upload:hover{
+    color: dodgerblue;
+}
+
+.profile-1 .img-div #form-input #text-input {
+    position: absolute;
+    top: 80px;
+    left: 90px;
+    width: 85%;
+    border: none;
+    background-color: #141d26;
+    color: #fff;
+    z-index: 0;
+}
+
+.profile-1 .img-div #form-input .profile-tweet{
+    padding: 10px;
+    width: 12%;
+    border-radius: 15px;
+    background-color: dodgerblue;
+    color: #fff;
+    border: 1px solid #fff;
+    margin: 10px 0 0 560px;
+    cursor: pointer;
+}
+
+ #container .line-stretch {
+    
+    margin-top: 10px;
+    height: 10px;
+    background-color: #192734;
+}
+
+
+::placeholder{
+    font-size: 1.4em;
+    
+}
+
+.right-side {
+    
+    width: 100%;
+    position: absolute;
+    left: 900px;
+    height: 100%;
+}
+
+.right-side #search .search-btn{
+    padding: 10px;
+    margin: 15px 0 0 50px;
+    width: 25%;
+    border-radius: 20px;
+    border: 1px solid #192734;
+    background-color: #141d26;
+    color: #fff;
+}
+
+.right-side #search i{
+    color: #fff;
+    position: absolute;
+    left: 65px;
+    top: 25px;
+}
+
+.right-side #search .search-btn::placeholder{
+    font-size: 15px;
+    padding: 40px;
+    width: 30%;
+}
+
+.right-side .Trend-section i{
+    float: right;
+    margin-right: 10px;
+    color: dodgerblue;
+    cursor: pointer;
+}
+
+.right-side .Trend-section i:hover{
+    border-radius: 100%;
+    background-color: rgba(14, 108, 202, 0.411);
+    opacity: 0.5;
+}
+
+.Trend-section{
+    border: 1px solid #192734;
+    border-radius: 10px;
+    width: 27%;
+    margin: 18px 0 0 50px;
+}
+
+.Trend-section h3{
+    font-weight: bold;
+    margin-left: 10px;
+    color: #fff;
+}
+
+.Trend-section .trend-profile{
+    border-top: 1px solid grey;
+    
+}
+
+.Trend-section .trend-profile a{
+    text-decoration: none;
+}
+
+.Trend-section .trend-profile a:hover{
+    color: royalblue;
+}
+
+
+ .Trend-section .trend-profile p{
+     line-height: 0px;
+     font-size: 12px;
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     margin-left: 12px;
+     color: grey;
+ }
+
+ .Trend-section .trend-profile h4{
+    font-size: 15px;
+    color: #fff;
+    margin-left: 12px;
+ }
+
+ .Trend-section .trend-profile #btn-show{
+     color: dodgerblue;
+ }
+
+ .Who-To-Follow{
+    border: 1px solid #192734;
+    border-radius: 10px;
+    width: 27%;
+    margin: 18px 0 0 50px;
+    
+ }
+
+ .Who-To-Follow h3{
+     margin-left: 10px;
+     color: #fff;
+ }
+
+ .Who-To-Follow .followings-profile{
+     border-top: 1px solid grey;
+ }
+
+ .Who-To-Follow .followings-profile #img-followings{
+     float: left;
+     border-radius: 100%;
+     margin-left: 12px;
+     margin-top: 10px;
+ }
+
+ .Who-To-Follow .float-item{
+
+    margin-left: 80px;
+    text-align: left;
+    
+ }
+ .Who-To-Follow .float-btn{
+     position: relative;
+     left: 200px;
+     bottom: 40px;
+
+     
+ }
+   
+.Who-To-Follow .followings-profile p{
+    line-height: 0px;
+    color: #fff;
+}
+
+.Who-To-Follow .followings-profile h5{
+    color: grey;
+    margin: 0;
+}
+
+.Who-To-Follow .followings-profile a{
+    text-decoration: none;
+}
+
+.Who-To-Follow .followings-profile .follow-btn{
+    
+    font-size: 15px;
+    padding: 10px;
+    width: 20%;
+    border-radius: 20px;
+    border: 2px solid dodgerblue;
+    background-color: #141d26;
+    color: dodgerblue;
+    cursor: pointer;
+}
+
+.footer-section {
+    width:25%;
+    margin-left: 20px;
+}
+
+.footer-section ul li{
+    font-size: 12px;
+    list-style-type: none;
+    display: inline;
+    padding: 5px;
+    
+}
+
+.footer-section ul li a{
+    text-decoration: none;
+    color: grey;
+}
